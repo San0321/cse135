@@ -129,6 +129,7 @@ define('USE_COMPOSER', false);
  * @var string Composer options
  * @link http://getcomposer.org/doc/03-cli.md#install
  */
+
 define('COMPOSER_OPTIONS', '--no-dev');
 
 /**
