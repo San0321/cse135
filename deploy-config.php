@@ -44,12 +44,13 @@ define('BRANCH', 'master');
  *
  * @var string Full path including the trailing slash
  */
+
 define('TARGET_DIR', '/var/www/html');
 
 /**
  * Whether to delete the files that are not in the repository but are on the
  * local (server) machine.
- *
+ *  
  * !!! WARNING !!! This can lead to a serious loss of data if you're not
  * careful. All files that are not in the repository are going to be deleted,
  * except the ones defined in EXCLUDE section.
